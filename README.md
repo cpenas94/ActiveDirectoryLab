@@ -22,6 +22,7 @@ This repository provides documentation for setting up and configuring an Active 
 2. **Install Windows Server**:
    - Boot the VM from the installation media.
    - Select **Custom** installation to perform a clean setup.
+![Alt text](images/3.png)
 
 3. **Configure the Local Server**:
    - Set a static IP address for the server.
