@@ -17,6 +17,7 @@ This repository provides documentation for setting up and configuring an Active 
 1. **Create a Virtual Machine**:
    - Set up a new virtual machine in Oracle VM VirtualBox.
    - Attach the Windows Server ISO to the virtual machine.
+![Alt text](images/1.png)
 
 2. **Install Windows Server**:
    - Boot the VM from the installation media.
