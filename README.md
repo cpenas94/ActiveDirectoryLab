@@ -62,6 +62,7 @@ This repository provides documentation for setting up and configuring an Active 
 
 3. **Repeat**:
    - Continue creating additional user accounts in the appropriate OUs.
+![Alt text](images/11.png)
 
 ## Configuration Files
 
