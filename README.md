@@ -49,6 +49,7 @@ This repository provides documentation for setting up and configuring an Active 
 2. **Create OUs**:
    - Right-click on the domain (e.g., `adlab.local`), choose **New** > **Organizational Unit**.
    - Create OUs such as `Students` and `Staff` as needed.
+![Alt text](images/10.png)
 
 ### Create User Accounts
 
