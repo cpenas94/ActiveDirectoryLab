@@ -37,6 +37,7 @@ This repository provides documentation for setting up and configuring an Active 
 5. **Promote the Server to a Domain Controller**:
    - In **Server Manager**, click on the notification flag and select **Promote this server to a domain controller**.
    - Configure the domain settings and promote the server to a domain controller for the domain `adlab.local`.
+![Alt text](images/5.png)
 
 ## Manual Configuration
 
