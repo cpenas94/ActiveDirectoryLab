@@ -1,0 +1,22 @@
+Active Directory Setup Configuration
+
+Domain Name: adlab.local
+
+Domain Controller:
+  Hostname: ADLabServer
+  FQDN: ADLabServer.adlab.local
+
+DNS Server:
+  IP Address: 192.168.1.10
+
+Additional Configuration:
+  - Organizational Units Created:
+    * Students
+    * Staff
+  - User Accounts:
+    * JohnDoe1@adlab.local
+    * JaneDoe2@adlab.local
+  - Static IP Address of Domain Controller:
+    * IP Address: 192.168.1.10
+    * Subnet Mask: 255.255.255.0
+    * Default Gateway: 192.168.1.1
