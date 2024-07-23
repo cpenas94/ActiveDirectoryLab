@@ -27,6 +27,7 @@ This repository provides documentation for setting up and configuring an Active 
 3. **Configure the Local Server**:
    - Set a static IP address for the server.
    - Rename the server to a meaningful name, such as `ADLabServer`.
+![Alt text](images/9.png)
 
 4. **Install Active Directory Domain Services (AD DS)**:
    - Open **Server Manager** and navigate to **Add Roles and Features**.
