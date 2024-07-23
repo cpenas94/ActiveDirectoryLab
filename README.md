@@ -32,6 +32,7 @@ This repository provides documentation for setting up and configuring an Active 
 4. **Install Active Directory Domain Services (AD DS)**:
    - Open **Server Manager** and navigate to **Add Roles and Features**.
    - Select the **Active Directory Domain Services** role and complete the installation.
+![Alt text](images/4.png)
 
 5. **Promote the Server to a Domain Controller**:
    - In **Server Manager**, click on the notification flag and select **Promote this server to a domain controller**.
