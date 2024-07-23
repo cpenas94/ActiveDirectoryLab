@@ -2,23 +2,25 @@
 
 ## Overview
 
-This repository contains the documentation for setting up and configuring an Active Directory (AD) environment on Windows Server. The setup demonstrates the manual installation and configuration of Active Directory Domain Services (AD DS) and includes information about the setup process and configuration steps.
+This repository provides documentation for setting up and configuring an Active Directory (AD) environment on Windows Server. The setup showcases the manual installation and configuration of Active Directory Domain Services (AD DS) and includes detailed steps for the setup process.
 
 ## Installation
 
 ### Prerequisites
 
-- **Oracle VM VirtualBox**: Virtualization software used to create a virtual machine.
-- **Windows Server ISO**: The installation media for Windows Server.
+- **Oracle VM VirtualBox**: Virtualization software used to create and manage virtual machines.
+- **Windows Server ISO**: Installation media for Windows Server.
 - **Windows Server License**: Use the evaluation version if available.
 
 ### Steps
 
 1. **Create a Virtual Machine**:
-   - Set up a new virtual machine in Oracle VM VirtualBox with the Windows Server ISO attached.
+   - Set up a new virtual machine in Oracle VM VirtualBox.
+   - Attach the Windows Server ISO to the virtual machine.
 
 2. **Install Windows Server**:
-   - Boot the VM with the installation media and select **Custom** installation for a clean setup.
+   - Boot the VM from the installation media.
+   - Select **Custom** installation to perform a clean setup.
 
 3. **Configure the Local Server**:
    - Set a static IP address for the server.
@@ -57,16 +59,14 @@ This repository contains the documentation for setting up and configuring an Act
 
 ## Configuration Files
 
-- **`ad-setup.txt`**: Contains basic information about the Active Directory setup, including domain name, domain controller, and DNS server settings.
+- **`ad-setup.txt`**: Contains details about the Active Directory setup, including domain name, domain controller, and DNS server settings.
 
 ## Future Enhancements
 
 - **Automation**: Consider creating PowerShell scripts for bulk user creation and other repetitive tasks to streamline the setup process.
 - **Advanced Features**: Explore additional Active Directory features such as Group Policy, advanced security settings, and integration with other services.
 
-
 ## Acknowledgments
 
 - Oracle VM VirtualBox for virtualization.
 - Microsoft for providing the Windows Server evaluation version.
-
